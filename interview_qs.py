@@ -28,7 +28,7 @@ import math
 def compute_factorial(number):
        return math.factorial(number)
 def test_compute_factorial():
-    input_number = 5
+    input_number = 6
     result = compute_factorial(input_number)
-    assert result == 120
+    assert result == 720
     print("Test Passed! The factorial of " + str(input_number) + " is " + str(result))
